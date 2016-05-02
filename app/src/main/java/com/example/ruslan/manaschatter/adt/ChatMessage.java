@@ -20,4 +20,8 @@ public class ChatMessage {
         return message;
     }
 
+    public long getTimeStamp() {
+        return timeStamp;
+    }
+
 }
