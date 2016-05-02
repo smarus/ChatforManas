@@ -16,4 +16,8 @@ public class ChatMessage {
         return username;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
 }
