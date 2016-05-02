@@ -11,5 +11,9 @@ public class ChatMessage {
         this.message   = message;
         this.timeStamp = timeStamp;
     }
+    
+    public String getUsername() {
+        return username;
+    }
 
 }
