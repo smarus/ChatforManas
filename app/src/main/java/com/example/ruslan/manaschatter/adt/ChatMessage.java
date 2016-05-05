@@ -12,16 +12,4 @@ public class ChatMessage {
         this.timeStamp = timeStamp;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public long getTimeStamp() {
-        return timeStamp;
-    }
-
 }
