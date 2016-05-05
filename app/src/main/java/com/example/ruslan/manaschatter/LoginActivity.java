@@ -25,7 +25,7 @@ public class LoginActivity extends Activity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null){
-            String lastUsername = extras.getString("Username", "");
+            String lastUsername = extras.getString("oldUsername", "");
             mUsername.setText(lastUsername);
         }
     }
