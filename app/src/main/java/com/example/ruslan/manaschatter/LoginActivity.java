@@ -14,5 +14,20 @@ import android.widget.EditText;
  */
 public class LoginActivity extends Activity {
 
-    
+    private EditText mUsername;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+
+        mUsername = (EditText) findViewById(R.id.login_username);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null){
+            String lastUsername = extras.getString("Username", "");
+            mUsername.setText(lastUsername);
+        }
+    }
+	
 }
