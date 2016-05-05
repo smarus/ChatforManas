@@ -1,0 +1,15 @@
+<resources>
+        <string name="app_name">Манас чаты</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Настроика</string>
+        <string name="action_gcm_register">Гуглды байланыштыруу</string>
+        <string name="action_gcm_unregister">Гуглды байланышты бутуруу</string>
+        <string name="title_activity_login">Login</string>
+        <string name="login">Атынызды танданыз:</string>
+        <string name="username">Атыныз</string>
+        <string name="login_submit">Чатка кошулабыз!</string>
+        <string name="enter_new_channel">Жаны канал ачуу</string>
+        <string name="send_message">Кат жазуу</string>
+        <string name="action_sign_out">Логинден чыгуу</string>
+        <string name="here_now">бул жерде</string>
+</resources>

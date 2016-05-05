@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "898003724173",
+    "project_id": "manaschatter-473f2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898003724173:android:8ee4ad00c43994be",
+        "android_client_info": {
+          "package_name": "com.example.ruslan.manaschatter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ2JQU_V8b4-LfuUXdcjioPQYWEbzIvlU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
