@@ -16,4 +16,8 @@ public class BasicCallback extends Callback {
         Log.d("PUBNUB", "Success: " + response.toString());
     }
 
+    @Override
+    public void connectCallback(String channel, Object message) {
+        Log.d("PUBNUB", "Connect: " + message.toString());
+    }
 }
