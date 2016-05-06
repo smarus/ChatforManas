@@ -11,5 +11,9 @@ public class BasicCallback extends Callback {
 
     }
 
+    @Override
+    public void successCallback(String channel, Object response) {
+        Log.d("PUBNUB", "Success: " + response.toString());
+    }
 
 }
