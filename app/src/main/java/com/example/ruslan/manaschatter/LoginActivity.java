@@ -29,5 +29,11 @@ public class LoginActivity extends Activity {
             mUsername.setText(lastUsername);
         }
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_login, menu);
+        return true;
+    }
 	
 }
