@@ -61,5 +61,18 @@ public class LoginActivity extends Activity {
         startActivity(intent);
     }
 
+    private boolean validUsername(String username) {
+        if (username.length() == 0) {
+            mUsername.setError("Username cannot be empty.");
+            return false;
+        }
+        if (username.length() > 16) {
+            mUsername.setError("Username too long.");
+            return false;
+        }
+        return true;
+    }
+
+
 	
 }
