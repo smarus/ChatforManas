@@ -46,5 +46,20 @@ public class LoginActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void joinChat(View view){
+        String username = mUsername.getText().toString();
+        if (!validUsername(username))
+            return;
+
+        SharedPreferences sp = getSharedPreferences(Constants.CHAT_PREFS,MODE_PRIVATE);
+        SharedPreferences.Editor edit = sp.edit();
+        edit.putString(Constants.CHAT_USERNAME, username);
+        edit.apply();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
 	
 }
