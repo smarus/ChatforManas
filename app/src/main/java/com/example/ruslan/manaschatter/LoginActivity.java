@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 
 /**
- * Created by ruslan on 03.05.16.
+ * Created by nurik on 03.05.16.
  */
 public class LoginActivity extends Activity {
 
@@ -29,7 +29,6 @@ public class LoginActivity extends Activity {
             mUsername.setText(lastUsername);
         }
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -73,4 +72,7 @@ public class LoginActivity extends Activity {
         }
         return true;
     }
+
+
+	
 }
