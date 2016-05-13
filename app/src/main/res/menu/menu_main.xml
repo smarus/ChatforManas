@@ -10,4 +10,6 @@
         android:orderInCategory="3" android:showAsAction="never" />
     <item android:id="@+id/action_sign_out" android:title="@string/action_sign_out"
         android:orderInCategory="4" android:showAsAction="never" />
+    <item android:id="@+id/action_map" android:title="@string/map"
+        android:orderInCategory="4" android:showAsAction="never" />
 </menu>

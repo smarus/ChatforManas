@@ -128,6 +128,11 @@ public class MainActivity extends ListActivity {
             case R.id.action_gcm_unregister:
                 gcmUnregister();
                 return true;
+            case R.id.action_map:
+                map();
+                return true;
+
+
         }
         return super.onOptionsItemSelected(item);
     }
@@ -137,6 +142,11 @@ public class MainActivity extends ListActivity {
         super.onStop();
         if (this.mPubNub != null)
             this.mPubNub.unsubscribeAll();
+    }
+    public void map()
+    {
+        Intent intent = new Intent(getApplicationContext(),MapActivity.class);
+        startActivity(intent);
     }
 
     @Override
