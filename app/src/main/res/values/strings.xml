@@ -12,4 +12,6 @@
         <string name="send_message">Кат жазуу</string>
         <string name="action_sign_out">Логинден чыгуу</string>
         <string name="here_now">бул жерде</string>
+        <string name="map">Карта</string>
+    <string name="title_activity_map">MapActivity</string>
 </resources>
